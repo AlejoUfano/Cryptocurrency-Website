@@ -10,3 +10,10 @@ export interface StatisticType {
     title: string;
     description: string;
   }
+
+  export interface ProductsType {
+    icon: string;
+    title: string;
+    subtitle: string;
+    description: string;
+  }
