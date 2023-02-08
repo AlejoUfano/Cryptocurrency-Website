@@ -8,14 +8,12 @@ import ActionButton from "@/shared/ActionButton";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 type Props = {
-  page: string;
   isTopOfPage: boolean;
   selectedPage: SelectedPage;
   setSelectedPage: (value: SelectedPage) => void;
 };
 
 const NavBar = ({
-  page,
   isTopOfPage,
   selectedPage,
   setSelectedPage,
